@@ -282,8 +282,8 @@ void setup() {
   Serial.begin(115200);     // Initialize serial communication for debugging
 
   // Set pin modes for the rotary encoder and button
-  pinMode(outputA, INPUT);       // Set pin A as input
-  pinMode(outputB, INPUT);       // Set pin B as input
+  pinMode(outputA, INPUT_PULLUP);       // Set pin A as input
+  pinMode(outputB, INPUT_PULLUP);       // Set pin B as input
   pinMode(BUTTON_PIN_2, INPUT_PULLUP); // Set button pin as input with pull-up resistor
 
   aLastState = digitalRead(outputA);  // Initialize the last state of encoder pin A
