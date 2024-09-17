@@ -4,40 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="README file for Rotary Encoder and TFT Display with LittlevGL Interface Code">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 20px;
-      color: #333;
-    }
-    h1 {
-      color: #2c3e50;
-    }
-    h2 {
-      color: #2980b9;
-    }
-    p {
-      margin-bottom: 15px;
-    }
-    ul {
-      margin-bottom: 15px;
-    }
-    code {
-      background-color: #f4f4f4;
-      padding: 5px;
-      font-family: Consolas, monospace;
-    }
-    pre {
-      background-color: #f4f4f4;
-      padding: 15px;
-      overflow-x: auto;
-    }
-    a {
-      color: #3498db;
-      text-decoration: none;
-    }
-  </style>
+ 
 </head>
 <body>
 
